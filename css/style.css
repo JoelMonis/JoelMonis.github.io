@@ -1,0 +1,135 @@
+.form-container form table input[type="submit"], .form-container form table input[type=reset] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+body, html {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.content {
+  padding: 30px;
+  align: center;
+}
+
+.navbar {
+  background: #78379d;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 300;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background: #fff;
+  color: #78379d;
+}
+
+.form-container {
+  height: auto;
+  width: auto;
+}
+.form-container form table {
+  border: none;
+}
+.form-container form table td {
+  padding: 10px;
+}
+.form-container form table input {
+  margin-left: 10px;
+}
+.form-container form table input[type="submit"] {
+  background: red;
+}
+.form-container form table input[type=reset] {
+  background: blue;
+}
+
+.form-box {
+  overflow: hidden;
+  padding: 20px;
+  background: #f7f7f9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.form-box h3 {
+  font-size: 36px;
+  list-style: 48px;
+  font-weight: 500;
+}
+.form-box p {
+  color: #636c72;
+}
+.form-box .btn-green {
+  font-size: 18px;
+  line-height: 27px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+.form-box .form-group:last-child {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-botoom: 1.5rem;
+}
+
+.form-control-label {
+  font-weight: 500;
+}
+
+.form-control {
+  line-height: 1.8rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-green {
+  background: #379d60;
+  color: #fff;
+}
+.btn-green:hover {
+  background: #268d4f;
+  color: #fff;
+}
+
+.btn-purple {
+  border: 1px solid #78379d;
+  background: transparent;
+  color: #78379d;
+}
+.btn-purple:hover {
+  background: #78379d;
+  color: #fff;
+}
+
+.follow-us {
+  float: right;
+}
+.follow-us .btn-follow {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

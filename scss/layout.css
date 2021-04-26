@@ -1,0 +1,86 @@
+.nav-main > ul, .nav-sub ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.form-container form table input[type="submit"], .form-container form table input[type=reset] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px; }
+
+body, html {
+  margin: 0;
+  font-size: 1em; }
+
+.content {
+  padding: 30px; }
+
+.nav-main {
+  width: 100%;
+  background-color: #222;
+  height: 70px;
+  color: #fff; }
+  .nav-main .logo {
+    float: left;
+    height: 40px;
+    padding: 15px 30px;
+    font-size: 1.4em;
+    line-height: 40px; }
+  .nav-main > ul {
+    float: left; }
+    .nav-main > ul > li {
+      float: left; }
+
+.nav-item {
+  display: inline-block;
+  padding: 15px 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none; }
+  .nav-item:hover {
+    background-color: #444; }
+  .nav-item:focus {
+    background-color: #444; }
+    .nav-item:focus ~ .nav-content {
+      max-height: 400px;
+      -webkit-transition: max-height 0.4s ease-in;
+      -moz-transition: max-height 0.4s ease-in;
+      transition: max-height 0.4s ease-in; }
+
+.nav-content {
+  position: absolute;
+  top: 70px;
+  overflow: hidden;
+  background-color: #222;
+  max-height: 0; }
+  .nav-content a {
+    color: #fff;
+    text-decoration: none; }
+    .nav-content a:hover {
+      text-decoration: underline; }
+
+.nav-sub {
+  padding: 20px; }
+  .nav-sub a {
+    display: inline-block;
+    padding: 5px 0; }
+
+.form-container {
+  height: auto;
+  width: auto; }
+  .form-container form table {
+    border: none; }
+    .form-container form table td {
+      padding: 10px; }
+    .form-container form table input {
+      margin-left: 10px; }
+    .form-container form table input[type="submit"] {
+      background: red; }
+    .form-container form table input[type=reset] {
+      background: blue; }
+
+/*# sourceMappingURL=layout.css.map */

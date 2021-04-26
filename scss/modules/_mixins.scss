@@ -1,0 +1,17 @@
+@mixin transition($property, $time, $type){
+	-webkit-transition: $property $time $type;
+	-moz-transition: $property $time $type;
+	transition: $property $time $type;
+}
+
+@mixin regular-text{
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
